@@ -16,3 +16,4 @@ mongoose.connect(process.env.MONGO_URI)
   .catch(err => console.log(err));
 
 app.listen(5000, () => console.log("Server running"));
+app.use("/api/recommend", require("./routes/recommendRoutes"));
