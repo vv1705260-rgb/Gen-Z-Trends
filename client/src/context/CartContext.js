@@ -21,10 +21,10 @@ export default function CartProvider({ children }) {
   const addToCart = (product) => {
     setCart(prev => [...prev, product]);
   };
+return (
+  <CartContext.Provider value={{ cart, setCart, addToCart }}>
+    {children}
+  </CartContext.Provider>
+);
 
-  return (
-    <CartContext.Provider value={{ cart, addToCart }}>
-      {children}
-    </CartContext.Provider>
-  );
 }
