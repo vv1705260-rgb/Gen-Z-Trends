@@ -115,11 +115,14 @@ git clone https://github.com/vv1705260-rgb/Gen-Z-Trends.git
 cd client  
 npm install  
 npm run dev  
+Front-end link : https://github.com/vv1705260-rgb/Gen-Z-Trends/tree/main/client/src
 
 ### 3. Run Backend
 cd server  
 npm install  
 npm start  
+Back-end link : 
+https://github.com/vv1705260-rgb/Gen-Z-Trends/tree/main/Server
 
 ---
 
