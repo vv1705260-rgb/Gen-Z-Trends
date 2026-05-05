@@ -52,3 +52,14 @@ app.use("/api/recommendations", recommendationRoutes);
 app.listen(5000, () => {
   console.log("Server running on port 5000");
 });
+import React from "react";
+import ReactDOM from "react-dom/client";
+import App from "./App";
+import CartProvider from "./context/CartContext";
+
+const root = ReactDOM.createRoot(document.getElementById("root"));
+root.render(
+  <CartProvider>
+    <App />
+  </CartProvider>
+);
