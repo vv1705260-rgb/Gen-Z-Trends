@@ -12,3 +12,14 @@ router.post("/", async (req, res) => {
 });
 
 module.exports = router;
+import express from "express";
+const router = express.Router();
+
+router.get("/", (req, res) => {
+  res.json([
+    { id: 1, name: "Streetwear Hoodie", price: 999 },
+    { id: 2, name: "Gen-Z Sneakers", price: 1999 }
+  ]);
+});
+
+export default router;
