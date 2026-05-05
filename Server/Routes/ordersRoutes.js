@@ -12,3 +12,11 @@ router.get("/", async (req, res) => {
 });
 
 module.exports = router;
+import express from "express";
+const router = express.Router();
+
+router.post("/create", (req, res) => {
+  res.json({ message: "Order placed successfully" });
+});
+
+export default router;
