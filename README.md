@@ -8,6 +8,15 @@ Gen-Z Trends is a full-stack web application built using React and Node.js that 
 This project is created for internship submission and demonstrates full-stack development skills with clean and modular code structure.
 
 ---
+## 🖇️📸Live Link and Screenshot
+
+Live Link: https://github.com/vv1705260-rgb/Gen-Z-Trends
+
+Screenshots : 
+<img width="1536" height="1024" alt="86603" src="https://github.com/user-attachments/assets/ab5a07f0-37bc-4276-9fe1-e0e16df7a56e" />
+with chatGpt demo :https://chatgpt.com/s/m_69f95bfff2c8819190a10f532825c736
+
+---
 
 ## 🧠 Objective
 - Build a full-stack application using React + Node.js
