@@ -124,7 +124,7 @@ npm start
 ---
 
 ## 👨‍💻 Author
-Vaishali B  
+Vaishali💗  
 GitHub: https://github.com/vv1705260-rgb  
 LinkedIn: https://www.linkedin.com/in/vaishali-357946292006deimos  
 
