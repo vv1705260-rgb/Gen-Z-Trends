@@ -138,3 +138,33 @@ const Home = () => {
 };
 
 export default Home;
+import { useEffect, useState } from "react";
+import axios from "axios";
+
+const Home = () => {
+  const [products, setProducts] = useState([]);
+
+  useEffect(() => {
+    axios.get("http://localhost:5000/api/products")
+      .then((res) => setProducts(res.data));
+  }, []);
+
+  return (
+    <div className="p-6">
+      <h1 className="text-3xl font-bold text-purple-500">
+        Gen-Z Store ⚡
+      </h1>
+
+      <div className="grid gap-4 mt-6">
+        {products.map((p) => (
+          <div key={p.id} className="p-4 bg-[#111827] rounded-xl">
+            <h2>{p.name}</h2>
+            <p>₹{p.price}</p>
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+};
+
+export default Home;
